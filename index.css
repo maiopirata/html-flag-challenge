@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 10% 0 0;
+    height: 100vh;
+}
+
+section {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 330px;
+    text-align: center;
+    font-size: 0;
+}
+
+#germany-hungary div:first-child {
+    background-color: black;
+}
+
+#germany-hungary div:nth-child(2) {
+    background-color: red;
+}
+
+#germany-hungary div:nth-child(3) {
+    background-color: yellow;
+}
+
+#germany-hungary:hover div:first-child {
+    background-color: red;
+}
+
+#germany-hungary:hover div:nth-child(2) {
+    background-color: white;
+}
+
+#germany-hungary:hover div:nth-child(3) {
+    background-color: green;
+}
+
+#french-irish div:first-child {
+    background-color: blue;
+}
+
+#french-irish div:nth-child(2) {
+    background-color: white;
+}
+
+#french-irish div:nth-child(3) {
+    background-color: red;
+}
+
+#french-irish:hover div:first-child {
+    background-color: green;
+}
+
+#french-irish:hover div:nth-child(2) {
+    background-color: white;
+}
+
+#french-irish:hover div:nth-child(3) {
+    background-color: orange;
+}
+
+div:hover {
+    cursor: pointer;
+}
+
+div {
+    margin: 0 auto;
+    width: 105px;
+    height: 60px;
+}
+
+.horizontal-band {
+    width: 315px;
+}
+
+.vertical-band {
+    height: 200px;
+    display: inline-block;
+}
